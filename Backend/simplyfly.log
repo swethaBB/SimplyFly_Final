@@ -1,0 +1,47 @@
+[34m2025-09-09 13:15:52.815[0;39m [INFO] c.h.s.SimplyFlyApplication [main] Starting SimplyFlyApplication using Java 22.0.1 with PID 20328 (C:\Users\HP\eclipse-workspace\simplyFly\SimplyFly_AirTicketBooking\backend\target\classes started by HP in C:\Users\HP\eclipse-workspace\simplyFly\SimplyFly_AirTicketBooking\backend)
+[34m2025-09-09 13:15:52.821[0;39m [INFO] c.h.s.SimplyFlyApplication [main] No active profile set, falling back to 1 default profile: "default"
+[34m2025-09-09 13:15:53.902[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[34m2025-09-09 13:15:54.014[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 6 JPA repository interfaces.
+[34m2025-09-09 13:15:54.726[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[34m2025-09-09 13:15:54.749[0;39m [INFO] o.a.c.c.StandardService [main] Starting service [Tomcat]
+[34m2025-09-09 13:15:54.749[0;39m [INFO] o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.43]
+[34m2025-09-09 13:15:54.827[0;39m [INFO] o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+[34m2025-09-09 13:15:54.828[0;39m [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1945 ms
+[34m2025-09-09 13:15:54.994[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+[34m2025-09-09 13:15:55.433[0;39m [INFO] c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dd91ffc
+[34m2025-09-09 13:15:55.434[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+[34m2025-09-09 13:15:55.569[0;39m [INFO] o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[34m2025-09-09 13:15:55.687[0;39m [INFO] o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.22.Final
+[34m2025-09-09 13:15:55.771[0;39m [INFO] o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[34m2025-09-09 13:15:56.341[0;39m [INFO] o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[34m2025-09-09 13:15:56.488[0;39m [WARN] o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[34m2025-09-09 13:15:56.513[0;39m [INFO] o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[34m2025-09-09 13:15:58.133[0;39m [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[34m2025-09-09 13:15:58.324[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-09-09 13:15:58.639[0;39m [INFO] o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[34m2025-09-09 13:15:59.207[0;39m [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name customerUserDetailsService
+[34m2025-09-09 13:15:59.485[0;39m [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[34m2025-09-09 13:16:00.512[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+[34m2025-09-09 13:16:00.521[0;39m [INFO] c.h.s.SimplyFlyApplication [main] Started SimplyFlyApplication in 8.34 seconds (process running for 9.601)
+[34m2025-09-09 13:16:00.528[0;39m [INFO] o.s.b.a.b.JobLauncherApplicationRunner [main] Running default command line with: []
+[34m2025-09-09 13:19:16.916[0;39m [INFO] o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[34m2025-09-09 13:19:16.917[0;39m [INFO] o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[34m2025-09-09 13:19:16.921[0;39m [INFO] o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+[34m2025-09-09 13:25:43.647[0;39m [WARN] c.z.h.p.HikariPool [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s961ms984µs300ns).
+[34m2025-09-09 13:47:56.461[0;39m [WARN] c.z.h.p.HikariPool [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m42s589ms26µs700ns).
+[34m2025-09-09 13:57:26.776[0;39m [WARN] c.z.h.p.HikariPool [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m30s315ms915µs900ns).
+[34m2025-09-09 14:10:44.115[0;39m [WARN] c.z.h.p.HikariPool [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s182ms27µs700ns).
+[34m2025-09-09 14:31:49.727[0;39m [WARN] c.z.h.p.HikariPool [HikariPool-1:housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s346ms454µs800ns).
+[34m2025-09-09 18:25:44.447[0;39m [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(282)-127.0.0.1] Application shutdown requested.
+[34m2025-09-09 18:25:44.512[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(282)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+[34m2025-09-09 18:25:44.535[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+[34m2025-09-09 18:25:44.568[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(282)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-09-09 18:25:44.589[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(282)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[34m2025-09-09 18:25:44.607[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(282)-127.0.0.1] HikariPool-1 - Shutdown completed.

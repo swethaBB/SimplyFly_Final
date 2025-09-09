@@ -1,0 +1,37 @@
+[34m2025-08-12 16:23:48.139[0;39m [INFO] c.h.s.SimplyFlyApplication [main] Starting SimplyFlyApplication using Java 22.0.1 with PID 19192 (C:\Users\HP\eclipse-workspace\simplyFly\target\classes started by HP in C:\Users\HP\eclipse-workspace\simplyFly)
+[34m2025-08-12 16:23:48.141[0;39m [INFO] c.h.s.SimplyFlyApplication [main] No active profile set, falling back to 1 default profile: "default"
+[34m2025-08-12 16:23:48.775[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[34m2025-08-12 16:23:48.838[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+[34m2025-08-12 16:23:49.263[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[34m2025-08-12 16:23:49.277[0;39m [INFO] o.a.c.c.StandardService [main] Starting service [Tomcat]
+[34m2025-08-12 16:23:49.277[0;39m [INFO] o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.43]
+[34m2025-08-12 16:23:49.318[0;39m [INFO] o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+[34m2025-08-12 16:23:49.318[0;39m [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1138 ms
+[34m2025-08-12 16:23:49.431[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+[34m2025-08-12 16:23:49.737[0;39m [INFO] c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff03361
+[34m2025-08-12 16:23:49.739[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+[34m2025-08-12 16:23:49.815[0;39m [INFO] o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[34m2025-08-12 16:23:49.872[0;39m [INFO] o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.22.Final
+[34m2025-08-12 16:23:49.907[0;39m [INFO] o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[34m2025-08-12 16:23:50.187[0;39m [INFO] o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[34m2025-08-12 16:23:50.264[0;39m [WARN] o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[34m2025-08-12 16:23:50.279[0;39m [INFO] o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[34m2025-08-12 16:23:51.173[0;39m [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[34m2025-08-12 16:23:52.224[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-08-12 16:23:52.700[0;39m [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[34m2025-08-12 16:23:53.336[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+[34m2025-08-12 16:23:53.342[0;39m [INFO] c.h.s.SimplyFlyApplication [main] Started SimplyFlyApplication in 5.62 seconds (process running for 6.226)
+[34m2025-08-12 16:23:53.344[0;39m [INFO] o.s.b.a.b.JobLauncherApplicationRunner [main] Running default command line with: []
+[34m2025-08-12 16:24:22.364[0;39m [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+[34m2025-08-12 16:24:22.366[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(4)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+[34m2025-08-12 16:24:22.370[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+[34m2025-08-12 16:24:22.374[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-08-12 16:24:22.377[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[34m2025-08-12 16:24:22.382[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
